@@ -1,0 +1,24 @@
+.component_block {
+    border: solid 2px #630090;
+    border-radius: 20px;
+    min-height: 100px;
+    min-width: 300px;
+    transition: min-height 0.3s ease;
+    overflow: hidden; /* Ensure content doesn't spill out */
+    padding: 10px; /* Add padding for better spacing */
+}
+
+.component_block.hovered {
+    min-height: 360px; /* Increase height when hovered */
+}
+
+.component_title {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.component_description {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #333;
+}

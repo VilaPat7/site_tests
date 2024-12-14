@@ -1,0 +1,15 @@
+.select_page{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.select_title{
+    font-size: 48px;
+    color: #630090;
+}
+.select_tests{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 150px;
+}

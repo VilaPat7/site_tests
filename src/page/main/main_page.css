@@ -1,0 +1,16 @@
+.main_title{
+    font-size: 128px;
+    color: #630090;
+    margin: 0;
+}
+
+.main_page{
+    display: flex;
+    justify-content: left;
+    padding: 0 0 0 10%;
+    align-items: center;
+    min-height: 100vh;
+}
+body{
+    min-height: 100vh;
+}
